@@ -67,6 +67,7 @@
   font-weight: 400;
   letter-spacing: 2px;
   color: white;
+  margin-inline: 30px;
 }
 
 .photo-me {
@@ -94,6 +95,7 @@
   margin-top: 32px;
   margin-bottom: 28px;
 }
+
 .about h4 {
   font-family: Public Sans;
   font-size: 16px;
@@ -111,6 +113,7 @@
   padding: 17px 32px;
   text-decoration: none;
   border: 1px solid black;
+  margin-inline: 40px;
 }
 
 .line {
@@ -120,16 +123,56 @@
   margin-bottom: 115px;
 }
 
+.contact-me {
+  margin-bottom: 80px;
+}
+
+.contact-me a {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 17px 32px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-inline: 74px;
+}
+
 .footer {
   background-color: #33323D;
+}
+
+.footer img {
+  width: 60px;
+  height: 32px;
+  margin-top: 56px;
+  margin-inline: 130px;
+  margin-bottom: 40px;
 }
 
 .menus {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 120px;
 }
 
 .menus a {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
   color: white;
   text-decoration: none;
+}
+
+.footer .social {
+  display: flex;
+  flex-direction: row;
+}
+
+.social img {
+  width: 25px;
+  height: 25px;
+  margin-right: 16px;
 }
