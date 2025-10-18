@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* index.html dosyasi */
 .container {
   border: 1px solid black;
   width: 375px;
@@ -175,4 +176,50 @@
   width: 25px;
   height: 25px;
   margin-right: 16px;
+}
+
+/* projects.html dosyasi */
+.project {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 311px;
+  margin-bottom: 24px;
+}
+
+.project img {
+  width: 311px;
+  height: 288px;
+  margin-inline: 32px;
+  margin-top: 25px;
+}
+
+.project h1 {
+  font-family: Ibarra Real Nova;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.project h4 {
+  font-family: Public Sans;
+  font-size: 15px;
+  line-height: 30px;
+  margin-inline: 32px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links a {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 17px 32px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-inline: 80px;
 }
