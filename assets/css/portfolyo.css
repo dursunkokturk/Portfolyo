@@ -137,6 +137,7 @@
 .footer {
   background-color: #33323D;
   padding-top: 56px;
+  padding-bottom: 56px;
 
   .up-down-white {
     width: 60px;
