@@ -11,29 +11,15 @@
   width: 375px;
 }
 
-.container img {
-  width: 31px;
-  height: 26px;
-  background: #33323D;
+.up-down {
+  margin-right: 270px;
 }
 
-.container .up-down-close {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 32px;
-  width: 308px;
-  margin: 32px 35px 100px 32px;
+.up-down-close {
+  margin-bottom: 40px;
 }
 
-.container .up-down-close .close {
-  width: 18px;
-  height: 19px;
-}
-
-.container h1 {
+.item-1 h1 {
   font-family: Ibarra Real Nova;
   font-size: 40px;
   font-weight: 700;
@@ -56,67 +42,27 @@
   margin-left: 32px;
   margin-right: 143px;
   margin-bottom: 96px;
-}
 
-.about-me img {
-  width: 48px;
-  height: 48px;
-}
-
-.about-me h4 {
-  font-family: Public Sans;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  color: white;
-  margin-inline: 30px;
+  h4 {
+    font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+    margin-inline: 30px;
+  }
 }
 
 .photo-me {
   margin-inline: 32px;
   margin-bottom: 32px;
+
+  img {
+    width: 311px;
+    height: 346px;
+  }
 }
 
-.photo-me img {
-  width: 311px;
-  height: 346px;
-}
-
-.about {
-  border-top: 1px solid black;
-  width: 311px;
-  margin-inline: 32px;
-  margin-bottom: 51px;
-}
-
-.about h1 {
-  font-family: Ibarra Real Nova;
-  font-size: 40px;
-  font-weight: 700;
-  letter-spacing: -0.36px;
-  margin-top: 32px;
-  margin-bottom: 28px;
-}
-
-.about h4 {
-  font-family: Public Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-inline: 32px;
-  margin-bottom: 24px;
-}
-
-.about a {
-  font-family: Public Sans;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  padding: 17px 32px;
-  text-decoration: none;
-  border: 1px solid black;
-  margin-inline: 40px;
-}
 
 .line {
   border: 1px solid black;
@@ -125,11 +71,229 @@
   margin-bottom: 115px;
 }
 
-.contact-me {
-  margin-bottom: 80px;
+.about {
+  border-top: 1px solid black;
+  width: 311px;
+  margin-inline: 32px;
+  margin-bottom: 51px;
+
+  h1 {
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    margin-top: 32px;
+    margin-bottom: 28px;
+  }
+
+  h4 {
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-inline: 32px;
+    margin-bottom: 24px;
+  }
+
+  a {
+    font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 17px 32px;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-inline: 40px;
+  }
 }
 
-.contact-me a {
+
+.contact-me {
+  margin-bottom: 80px;
+
+  h1 {
+    font-family: Ibarra Real Nova;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 311px;
+  }
+
+  a {
+    font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 17px 32px;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-inline: 74px;
+  }
+}
+
+.footer {
+  background-color: #33323D;
+  padding-top: 56px;
+
+  .up-down-white {
+    width: 60px;
+    height: 32px;
+    display: flex;
+    margin-inline: 157px;
+    margin-bottom: 40px;
+  }
+
+  .menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+      font-family: Public Sans;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 32px;
+    }
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img {
+      width: 25px;
+      height: 25px;
+      margin-right: 16px;
+    }
+  }
+}
+
+/* .container img {
+  width: 31px;
+  height: 26px;
+  background: #33323D;
+} */
+
+/* .container .up-down-close {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  width: 308px;
+  margin: 32px 35px 100px 32px;
+} */
+
+/* .container .up-down-close .close {
+  width: 18px;
+  height: 19px;
+} */
+
+/* .container h1 {
+  font-family: Ibarra Real Nova;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+  margin-inline: 32px;
+  margin-bottom: 32px;
+} */
+
+/* .about-me {
+  width: 200;
+  height: 48;
+  opacity: 1;
+  top: 599px;
+  left: 32px;
+  background: #203A4C;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 32px;
+  margin-right: 143px;
+  margin-bottom: 96px;
+} */
+
+/* .about-me img {
+  width: 48px;
+  height: 48px;
+} */
+
+/* .about-me h4 {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: white;
+  margin-inline: 30px;
+} */
+
+/* .photo-me {
+  margin-inline: 32px;
+  margin-bottom: 32px;
+} */
+
+/* .photo-me img {
+  width: 311px;
+  height: 346px;
+} */
+
+/* .about {
+  border-top: 1px solid black;
+  width: 311px;
+  margin-inline: 32px;
+  margin-bottom: 51px;
+} */
+
+/* .about h1 {
+  font-family: Ibarra Real Nova;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  margin-top: 32px;
+  margin-bottom: 28px;
+} */
+
+/* .about h4 {
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-inline: 32px;
+  margin-bottom: 24px;
+} */
+
+/* .about a {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 17px 32px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-inline: 40px;
+} */
+
+/* .line {
+  border: 1px solid black;
+  width: 311px;
+  margin-inline: 32px;
+  margin-bottom: 115px;
+} */
+
+/* .contact-me {
+  margin-bottom: 80px;
+} */
+
+/* .contact-me a {
   font-family: Public Sans;
   font-size: 12px;
   font-weight: 400;
@@ -138,82 +302,82 @@
   text-decoration: none;
   border: 1px solid black;
   margin-inline: 74px;
-}
+} */
 
-.footer {
+/* .footer {
   background-color: #33323D;
-}
+} */
 
-.footer img {
+/* .footer .up-down-white {
   width: 60px;
   height: 32px;
   margin-top: 56px;
-  margin-inline: 130px;
+  display: flex;
   margin-bottom: 40px;
-}
+} */
 
-.menus {
+/* .menus {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-.menus a {
+/* .menus a {
   font-family: Public Sans;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 2px;
   color: white;
   text-decoration: none;
-}
+} */
 
-.footer .social {
+/* .footer .social {
   display: flex;
   flex-direction: row;
-}
+} */
 
-.social img {
+/* .social img {
   width: 25px;
   height: 25px;
   margin-right: 16px;
-}
+} */
 
 /* projects.html dosyasi */
-.project {
+/* .project {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   width: 311px;
   margin-bottom: 24px;
-}
+} */
 
-.project img {
+/* .project img {
   width: 311px;
   height: 288px;
   margin-inline: 32px;
   margin-top: 25px;
-}
+} */
 
-.project h1 {
+/* .project h1 {
   font-family: Ibarra Real Nova;
   font-size: 40px;
   font-weight: 700;
   line-height: 42px;
-}
+} */
 
-.project h4 {
+/* .project h4 {
   font-family: Public Sans;
   font-size: 15px;
   line-height: 30px;
   margin-inline: 32px;
-}
+} */
 
-.links {
+/* .links {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-.links a {
+/* .links a {
   font-family: Public Sans;
   font-size: 12px;
   font-weight: 400;
@@ -222,4 +386,4 @@
   text-decoration: none;
   border: 1px solid black;
   margin-inline: 80px;
-}
+} */
