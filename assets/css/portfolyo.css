@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Mobile Start */
 /* index.html dosyasi */
 .container {
   margin: auto;
@@ -176,6 +177,8 @@
     }
   }
 }
+
+/* Mobile End */
 
 /* .container img {
   width: 31px;
