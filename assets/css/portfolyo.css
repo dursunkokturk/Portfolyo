@@ -219,10 +219,14 @@
         width: 281px;
       }
     }
+    .about {
+      width: 350px;
+    }
   }
 
   .item-3 {
     margin-bottom: 96px;
+
     .contact-me {
       display: flex;
       flex-direction: row;
@@ -266,6 +270,82 @@
 }
 
 /* Tablet End */
+
+/* Computer Start */
+/* Tablet Start */
+@media (width > 1109px) {
+  .container {
+    margin: auto;
+    border: 1px solid black;
+    width: 1109px;
+  }
+
+  .item-1 {
+    
+    .about-me {
+      width: 200px;
+      height: 48px;
+    }
+  }
+
+  .item-2 {
+    display: flex;
+    flex-direction: row;
+
+    .photo-me {
+      img {
+        width: 540px;
+        height: 600px;
+      }
+    }
+  }
+
+  .item-3 {
+    margin-bottom: 96px;
+
+    .contact-me {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 0px;
+      
+      h1 {
+        width: 400px;
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 400px;
+      }
+
+      a {
+        padding: 17px 32px;
+        margin-inline: 20px;
+        margin-top: 20px;
+        margin-bottom: 75px;
+      }
+    }
+
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 0px;
+
+    .up-down-white {
+      margin-inline: 50px;
+    }
+
+    .menus {
+      flex-direction: row;
+      margin-right: 100px;
+
+      a {
+        margin-right: 43px;
+      }
+    }
+  }
+}
+/* Computer End */
 
 /* .container img {
   width: 31px;
