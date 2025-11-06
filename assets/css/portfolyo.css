@@ -14,7 +14,7 @@
 
 .up-down-close {
   margin-bottom: 40px;
-  
+
   .up-down {
     margin-right: 270px;
   }
@@ -31,6 +31,7 @@
     margin-inline: 32px;
     margin-bottom: 32px;
   }
+
   .about-me {
     width: 200;
     height: 48;
@@ -44,7 +45,7 @@
     margin-left: 32px;
     margin-right: 143px;
     margin-bottom: 96px;
-  
+
     h4 {
       font-family: Public Sans;
       font-size: 12px;
@@ -61,18 +62,19 @@
   .photo-me {
     margin-inline: 32px;
     margin-bottom: 32px;
-  
+
     img {
       width: 311px;
       height: 346px;
     }
   }
+
   .about {
     /* border-top: 1px solid #33323D; */
     width: 311px;
     margin-inline: 32px;
     margin-bottom: 51px;
-  
+
     .line-top {
       border: 1px solid #33323D;
       width: 311px;
@@ -89,7 +91,7 @@
       margin-top: 32px;
       margin-bottom: 28px;
     }
-  
+
     h4 {
       font-family: Public Sans;
       font-size: 16px;
@@ -99,7 +101,7 @@
       /* margin-inline: 32px; */
       margin-bottom: 24px;
     }
-  
+
     a {
       font-family: Public Sans;
       font-size: 12px;
@@ -110,6 +112,7 @@
       border: 1px solid black;
       margin-bottom: 50px;
     }
+
     .line-bottom {
       border: 1px solid #33323D;
       width: 311px;
@@ -124,7 +127,7 @@
 
   .contact-me {
     margin-bottom: 80px;
-  
+
     h1 {
       font-family: Ibarra Real Nova;
       font-weight: 700;
@@ -136,7 +139,7 @@
       width: 311px;
       margin-inline: 32px;
     }
-  
+
     a {
       font-family: Public Sans;
       font-size: 12px;
@@ -203,7 +206,7 @@
   }
 
   .item-1 {
-    
+
     .about-me {
       width: 200px;
       height: 48px;
@@ -219,6 +222,7 @@
         width: 281px;
       }
     }
+
     .about {
       width: 350px;
     }
@@ -231,7 +235,7 @@
       display: flex;
       flex-direction: row;
       margin-bottom: 0px;
-      
+
       h1 {
         width: 400px;
         display: flex;
@@ -281,7 +285,7 @@
   }
 
   .item-1 {
-    
+
     .about-me {
       width: 200px;
       height: 48px;
@@ -307,7 +311,7 @@
       display: flex;
       flex-direction: row;
       margin-bottom: 0px;
-      
+
       h1 {
         width: 400px;
         display: flex;
@@ -345,217 +349,161 @@
     }
   }
 }
+
 /* Computer End */
 
-/* .container img {
-  width: 31px;
-  height: 26px;
-  background: #33323D;
-} */
 
-/* .container .up-down-close {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 32px;
-  width: 308px;
-  margin: 32px 35px 100px 32px;
-} */
+/* Portfolyo */
+.project-1 {
+  img {
+    width: 311px;
+    height: 288px;
+    margin-inline: 32px;
+    margin-bottom: 32px;
+  }
 
-/* .container .up-down-close .close {
-  width: 18px;
-  height: 19px;
-} */
+  .title-description-buttons {
+    margin-inline: 32px;
 
-/* .container h1 {
-  font-family: Ibarra Real Nova;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 42px;
-  letter-spacing: -0.36px;
-  margin-inline: 32px;
-  margin-bottom: 32px;
-} */
+    h1 {
+      font-family: Ibarra Real Nova;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: -0.36px;
+    }
 
-/* .about-me {
-  width: 200;
-  height: 48;
-  opacity: 1;
-  top: 599px;
-  left: 32px;
-  background: #203A4C;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 32px;
-  margin-right: 143px;
-  margin-bottom: 96px;
-} */
+    h4 {
+      font-family: Public Sans;
+      font-size: 15px;
+      line-height: 30px;
+    }
 
-/* .about-me img {
-  width: 48px;
-  height: 48px;
-} */
+    .links {
+      margin-top: 32px;
 
-/* .about-me h4 {
-  font-family: Public Sans;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  color: white;
-  margin-inline: 30px;
-} */
+      a {
+        font-family: Public Sans;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 17px 32px;
+        text-decoration: none;
+        border: 1px solid black;
+        margin-inline: 15px;
+      }
+    }
 
-/* .photo-me {
-  margin-inline: 32px;
-  margin-bottom: 32px;
-} */
+    .project-line-bottom {
+      border: 1px solid #33323D;
+      width: 311px;
+      margin-top: 100px;
+      margin-bottom: 115px;
+      opacity: 15%;
+    }
+  }
+}
 
-/* .photo-me img {
-  width: 311px;
-  height: 346px;
-} */
+.project-2 {
+  margin-top: 72px;
 
-/* .about {
-  border-top: 1px solid black;
-  width: 311px;
-  margin-inline: 32px;
-  margin-bottom: 51px;
-} */
+  img {
+    width: 311px;
+    height: 288px;
+    margin-inline: 32px;
+    margin-bottom: 32px;
+  }
 
-/* .about h1 {
-  font-family: Ibarra Real Nova;
-  font-size: 40px;
-  font-weight: 700;
-  letter-spacing: -0.36px;
-  margin-top: 32px;
-  margin-bottom: 28px;
-} */
+  .title-description-buttons {
+    margin-inline: 32px;
 
-/* .about h4 {
-  font-family: Public Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-inline: 32px;
-  margin-bottom: 24px;
-} */
+    h1 {
+      font-family: Ibarra Real Nova;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: -0.36px;
+    }
 
-/* .about a {
-  font-family: Public Sans;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  padding: 17px 32px;
-  text-decoration: none;
-  border: 1px solid black;
-  margin-inline: 40px;
-} */
+    h4 {
+      font-family: Public Sans;
+      font-size: 15px;
+      line-height: 30px;
+    }
 
-/* .line {
-  border: 1px solid black;
-  width: 311px;
-  margin-inline: 32px;
-  margin-bottom: 115px;
-} */
+    .links {
+      margin-top: 32px;
 
-/* .contact-me {
-  margin-bottom: 80px;
-} */
+      a {
+        font-family: Public Sans;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 17px 32px;
+        text-decoration: none;
+        border: 1px solid black;
+        margin-inline: 15px;
+      }
+    }
 
-/* .contact-me a {
-  font-family: Public Sans;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  padding: 17px 32px;
-  text-decoration: none;
-  border: 1px solid black;
-  margin-inline: 74px;
-} */
+    .project-line-bottom {
+      border: 1px solid #33323D;
+      width: 311px;
+      margin-top: 100px;
+      margin-bottom: 115px;
+      opacity: 15%;
+    }
+  }
+}
 
-/* .footer {
-  background-color: #33323D;
-} */
+.project-3 {
+  margin-top: 72px;
 
-/* .footer .up-down-white {
-  width: 60px;
-  height: 32px;
-  margin-top: 56px;
-  display: flex;
-  margin-bottom: 40px;
-} */
+  img {
+    width: 311px;
+    height: 288px;
+    margin-inline: 32px;
+    margin-bottom: 32px;
+  }
 
-/* .menus {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
+  .title-description-buttons {
+    margin-inline: 32px;
 
-/* .menus a {
-  font-family: Public Sans;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  color: white;
-  text-decoration: none;
-} */
+    h1 {
+      font-family: Ibarra Real Nova;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: -0.36px;
+    }
 
-/* .footer .social {
-  display: flex;
-  flex-direction: row;
-} */
+    h4 {
+      font-family: Public Sans;
+      font-size: 15px;
+      line-height: 30px;
+    }
 
-/* .social img {
-  width: 25px;
-  height: 25px;
-  margin-right: 16px;
-} */
+    .links {
+      margin-top: 32px;
 
-/* projects.html dosyasi */
-/* .project {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  width: 311px;
-  margin-bottom: 24px;
-} */
+      a {
+        font-family: Public Sans;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 17px 32px;
+        text-decoration: none;
+        border: 1px solid black;
+        margin-inline: 15px;
+      }
+    }
 
-/* .project img {
-  width: 311px;
-  height: 288px;
-  margin-inline: 32px;
-  margin-top: 25px;
-} */
-
-/* .project h1 {
-  font-family: Ibarra Real Nova;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 42px;
-} */
-
-/* .project h4 {
-  font-family: Public Sans;
-  font-size: 15px;
-  line-height: 30px;
-  margin-inline: 32px;
-} */
-
-/* .links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
-/* .links a {
-  font-family: Public Sans;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  padding: 17px 32px;
-  text-decoration: none;
-  border: 1px solid black;
-  margin-inline: 80px;
-} */
+    .project-line-bottom {
+      border: 1px solid #33323D;
+      width: 311px;
+      margin-top: 100px;
+      margin-bottom: 115px;
+      opacity: 15%;
+    }
+  }
+}
