@@ -9,7 +9,7 @@
 .container {
   margin: auto;
   border: 1px solid black;
-  width: 375px;
+  /* width: 375px; */
 }
 
 .up-down-close {
@@ -148,7 +148,7 @@
       padding: 17px 32px;
       text-decoration: none;
       border: 1px solid black;
-      margin-inline: 100px;
+      margin-inline: 85px;
     }
   }
 }
