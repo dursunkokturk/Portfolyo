@@ -19,7 +19,7 @@
   }
 }
 
-.item-1 {
+.short-promotional-text-and-about-me-image {
 
   h1 {
     font-family: Ibarra Real Nova;
@@ -205,7 +205,7 @@
     border: 1px solid black;
   }
 
-  .item-1 {
+  .short-promotional-text-and-about-me-image {
 
     .about-me {
       width: 200px;
@@ -321,7 +321,7 @@
     width: 1109px;
   }
 
-  .item-1 {
+  .short-promotional-text-and-about-me-image {
 
     .about-me {
       width: 200px;
