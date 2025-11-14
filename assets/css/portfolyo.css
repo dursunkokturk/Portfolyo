@@ -273,11 +273,11 @@
   }
 
   /* Project.html Dosyasi */
-  .project-1 {
+  .project-1-photo-title-description-buttons {
     display: flex;
   }
 
-  .project-1 {
+  .project-1-photo-title-description-buttons {
     img {
       width: 339px;
       height: 314px;
@@ -408,7 +408,7 @@
 }
 
 /* projects.html */
-.project-1 {
+.project-1-photo-title-description-buttons {
   margin-bottom: 97px;
 
   img {
