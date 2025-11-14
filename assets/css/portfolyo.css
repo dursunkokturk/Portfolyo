@@ -290,12 +290,12 @@
     }
   }
 
-  .project-2 {
+  .project-2-photo-title-description-buttons-photo-title-description-buttons {
     display: flex;
     flex-direction: row-reverse;
   }
 
-  .project-2 {
+  .project-2-photo-title-description-buttons-photo-title-description-buttons {
     img {
       width: 339px;
       height: 314px;
@@ -460,7 +460,7 @@
   }
 }
 
-.project-2 {
+.project-2-photo-title-description-buttons {
   margin-bottom: 97px;
 
   img {
