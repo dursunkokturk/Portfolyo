@@ -268,7 +268,7 @@
     }
   }
 
-  /* Project..html Dosyasi */
+  /* Project.html Dosyasi */
   .project-1 {
     display: flex;
   }
@@ -411,8 +411,8 @@
   margin-bottom: 97px;
 
   img {
-    width: 311px;
-    height: 288px;
+    width: 540px;
+    height: 500px;
     display: block;
     margin-inline: auto;
     margin-bottom: 32px;
@@ -430,6 +430,7 @@
     }
 
     h4 {
+      width: 350px;
       font-family: Public Sans;
       font-size: 15px;
       line-height: 30px;
@@ -463,8 +464,8 @@
   margin-bottom: 97px;
 
   img {
-    width: 311px;
-    height: 288px;
+    width: 540px;
+    height: 550px;
     display: block;
     margin-inline: auto;
     margin-bottom: 32px;
@@ -482,6 +483,7 @@
     }
 
     h4 {
+      width: 350px;
       font-family: Public Sans;
       font-size: 15px;
       line-height: 30px;
