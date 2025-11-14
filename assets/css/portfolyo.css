@@ -275,9 +275,31 @@
     display: flex;
   }
   
+  .project-1 {
+    img {
+      width: 339px;
+      height: 314px;
+      margin-right: 69px;
+    }
+    h4 {
+      width: 281px;
+    }
+  }
+
   .project-2 {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  .project-2 {
+    img {
+      width: 339px;
+      height: 314px;
+      margin-left: 69px;
+    }
+    h4 {
+      width: 281px;
+    }
   }
 }
 
