@@ -475,3 +475,8 @@
 .project-1 {
   display: flex;
 }
+
+.project-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
