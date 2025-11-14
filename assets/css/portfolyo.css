@@ -56,7 +56,7 @@
   }
 }
 
-.item-2 {
+.photo-about-and-projects-go-button {
 
   .photo-me {
     margin-inline: 32px;
@@ -213,7 +213,7 @@
     }
   }
 
-  .item-2 {
+  .photo-about-and-projects-go-button {
     display: flex;
     flex-direction: row;
 
@@ -329,7 +329,7 @@
     }
   }
 
-  .item-2 {
+  .photo-about-and-projects-go-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
