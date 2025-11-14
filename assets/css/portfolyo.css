@@ -198,7 +198,7 @@
 /* Mobile End */
 
 /* Tablet Start */
-@media (width > 768px) {
+@media (width > 767px) {
   .container {
     margin: auto;
     border: 1px solid black;
@@ -271,12 +271,20 @@
       }
     }
   }
+
+  .project-1 {
+    display: flex;
+  }
+  
+  .project-2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 /* Tablet End */
 
 /* Computer Start */
-/* Tablet Start */
 @media (width > 1109px) {
   .container {
     margin: auto;
@@ -365,7 +373,7 @@
 /* Computer End */
 
 
-/* Portfolyo */
+/* projects.html */
 .project-1 {
   margin-bottom: 97px;
 
@@ -467,17 +475,5 @@
       margin-bottom: 115px;
       opacity: 15%;
     }
-  }
-}
-
-/* Tablet Start */
-@media (width > 767px) {
-  .project-1 {
-    display: flex;
-  }
-  
-  .project-2 {
-    display: flex;
-    flex-direction: row-reverse;
   }
 }
