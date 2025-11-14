@@ -469,3 +469,9 @@
     }
   }
 }
+
+/* Tablet Start */
+
+.project-1 {
+  display: flex;
+}
