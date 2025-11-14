@@ -414,8 +414,6 @@
   img {
     width: 540px;
     height: 500px;
-    /* display: block; */
-    /* margin-left: 60px; */
     margin-bottom: 32px;
   }
 
@@ -468,8 +466,6 @@
   img {
     width: 540px;
     height: 500px;
-    /* display: block;
-    margin-inline: auto; */
     margin-bottom: 32px;
   }
 
