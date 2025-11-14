@@ -471,12 +471,13 @@
 }
 
 /* Tablet Start */
-
-.project-1 {
-  display: flex;
-}
-
-.project-2 {
-  display: flex;
-  flex-direction: row-reverse;
+@media (width > 767px) {
+  .project-1 {
+    display: flex;
+  }
+  
+  .project-2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
