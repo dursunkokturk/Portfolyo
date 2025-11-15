@@ -199,7 +199,8 @@
   img {
     width: 311px;
     height: 288px;
-    margin-inline: 24px;
+    display: block;
+    margin-inline: auto;
     margin-bottom: 32px;
   }
 
@@ -252,7 +253,8 @@
   img {
     width: 311px;
     height: 288px;
-    margin-inline: 24px;
+    display: block;
+    margin-inline: auto;
     margin-bottom: 32px;
   }
 
