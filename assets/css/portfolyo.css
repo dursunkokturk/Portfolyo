@@ -514,7 +514,45 @@
       }
     }
   }
-}
+
+  /* Project.html Dosyasi */
+  .project-1-photo-title-description-buttons {
+    display: flex;
+  }
+
+  .project-1-photo-title-description-buttons {
+    img {
+      width: 540px;
+      height: 500px;
+      margin-right: 69px;
+    }
+
+    h1,
+    h4 {
+      width: 350px;
+    }
+  }
+
+  .project-2-photo-title-description-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .project-2-photo-title-description-buttons {
+    img {
+      width: 540px;
+      height: 500px;
+      margin-left: 69px;
+    }
+
+    h1,
+    h4 {
+      width: 350px;
+    }
+  }
+} 
+
+/* Tablet End */
 
 
 
