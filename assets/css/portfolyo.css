@@ -13,9 +13,32 @@
 
 .up-down-close {
   margin-bottom: 40px;
+  display: flex;
 
   .up-down {
     margin-right: 270px;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Yapilan Islem Degistirilmedigi Surece 
+    Tum Ekran Boyutlarinda Ayni Kabul Edilir */
+  .main-menu {
+    display: none;
+    gap: 8px;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  .hamburger-menu-handle {
+    display: flex;
+    background-color: black;
   }
 }
 
@@ -190,6 +213,7 @@
     }
   }
 }
+
 /* index.html dosyasi */
 
 /* projects.html */
@@ -300,6 +324,7 @@
     }
   }
 }
+
 /* Mobile End */
 
 
@@ -308,10 +333,44 @@
 
 /* Tablet Start */
 @media (width > 767px) {
+
   /* index.html dosyasi */
   .container {
     margin: auto;
     border: 1px solid black;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Yapilan Islem Degistirilmedigi Surece 
+    Tum Ekran Boyutlarinda Ayni Kabul Edilir */
+    .main-menu {
+      display: flex;
+      gap: 8px;
+
+      li {
+        list-style: none;
+        font-family: Public Sans;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          margin-right: 30px;
+        }
+      }
+
+      .hamburger-menu-handle {
+        display: none;
+      }
+    }
   }
 
   .short-promotional-text-and-about-me-image {
@@ -416,7 +475,7 @@
       width: 281px;
     }
   }
-} 
+}
 
 /* Tablet End */
 
@@ -458,7 +517,7 @@
     }
   }
 
-  .contact-us-text-and-button{
+  .contact-us-text-and-button {
     margin-bottom: 96px;
 
     .contact-me {
@@ -550,7 +609,7 @@
       width: 350px;
     }
   }
-} 
+}
 
 /* Tablet End */
 
