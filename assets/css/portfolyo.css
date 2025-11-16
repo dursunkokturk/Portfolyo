@@ -368,12 +368,14 @@
       width: 311px;
       background-color: #d8d7d7;
       margin-bottom: 24px;
+      padding: 9px 200px 9px 16px;
     }
 
     textarea {
       width: 311px;
       margin-bottom: 24px;
       background-color: #d8d7d7;
+      padding: 9px 140px 57px 16px;
     }
 
     .send-message {
