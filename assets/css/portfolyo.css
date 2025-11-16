@@ -554,6 +554,17 @@
       width: 281px;
     }
   }
+
+  /* contact.html dosyasi */
+  form {
+    input {
+      width: 689px;
+      padding: 9px 578px 9px 16px;
+    }
+    textarea  {
+      width: 689px;
+    }
+  }
 }
 
 /* Tablet End */
